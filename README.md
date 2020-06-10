@@ -1,1 +1,1 @@
-In this project I have created my first program in C
+In this project, I have learned about some basic C.
