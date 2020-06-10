@@ -8,9 +8,9 @@ int main(void)
 {
 	char charType;
 	int intType;
-	float floatType;
 	long int longIntType;
 	long long int longLongType;
+	float floatType;
 
 	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 	printf("Size of an int: %zu byte(s)\n", sizeof(intType));
