@@ -4,7 +4,7 @@
 
 /**
  * main - the function main generates a random number
- * It prints if the random number is positive, zero o negative
+ * prints if the random number is positive, zero o negative
  * Return: Always 0 (Success)
  */
 
