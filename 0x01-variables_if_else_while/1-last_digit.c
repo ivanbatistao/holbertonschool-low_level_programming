@@ -4,7 +4,7 @@
 
 /**
  * main - the function main generates a random number
- * prints last digit
+ * prints the last digit
  * Return: Always 0 (Success)
  */
 int main(void)
