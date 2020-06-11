@@ -1,1 +1,1 @@
-In this project, I have learned about Variables, if, else, while
+In this project I have learned about Variables, if, else, while

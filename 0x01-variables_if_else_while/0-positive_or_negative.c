@@ -1,10 +1,10 @@
-#include <stdlib.h>
+B#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
  * main - the function main generates a random number
- * prints if the random number is positive, zero o negative
+ * prints if the number is positive, zero o negative
  * Return: Always 0 (Success)
  */
 
