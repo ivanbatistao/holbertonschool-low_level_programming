@@ -1,9 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - prints the alphabet in lowercase, followed by a new line
- *
+ * except letters q and e
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char i = 'a';
