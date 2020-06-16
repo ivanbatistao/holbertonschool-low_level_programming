@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * int print_last_digit -  prints the last digit of a number
+ * print_last_digit -  prints the last digit of a number
  * @a: variable
  *
  *
@@ -19,9 +19,9 @@ int print_last_digit(int a)
 	}
 
 	else
-        {
-                b = b * -1;
-                _putchar(b + '0');
+	{
+		b = b * -1;
+		_putchar(b + '0');
 		return (b);
 
 	}
