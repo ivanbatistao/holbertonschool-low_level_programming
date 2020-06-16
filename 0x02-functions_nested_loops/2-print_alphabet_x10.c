@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_alphabetx10 - prints alphabet
+ * print_alphabet_x10 - prints alphabet x 10
  * using _putchar
  *
  *
@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 	a = 0;
 	while (a < 10)
 	{
-		n ='a';
+		n = 'a';
 		while (n <= 'z')
 		{
 			_putchar(n);
