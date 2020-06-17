@@ -4,15 +4,13 @@
  * @a: variable
  * @b: variable
  *
- * Return: (result)
+ * Return: (0)
  */
 
 int add(int a, int b)
 {
-	int result;
+	_putchar(a + b + '0');
 
-	result = a + b;
-	_putchar(result + '0');
+	return (a + b);
 
-	return (result);
 }
