@@ -33,7 +33,7 @@ int main(void)
 				printf("%d ", n);
 			}
 		}
-		else
+		else if ((n % 5 == 0) && (n == 100))
 		{
 			printf("Buzz");
 		}
