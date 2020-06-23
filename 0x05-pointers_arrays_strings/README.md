@@ -1,0 +1,1 @@
+In this project, I have learned about arrays, pointers, strigns and data struct
