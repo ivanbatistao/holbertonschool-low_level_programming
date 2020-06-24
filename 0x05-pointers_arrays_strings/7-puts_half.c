@@ -30,10 +30,10 @@ void puts_half(char *str)
 	else
 	{
 		half  = (count - 1) / 2;
-		aux1 = half;
+		aux1 = half + 1;
 		while (str[aux1] != 0)
 		{
-			_putchar(str[aux1 + 1]);
+			_putchar(str[aux1]);
 			aux1++;
 		}
 	}
