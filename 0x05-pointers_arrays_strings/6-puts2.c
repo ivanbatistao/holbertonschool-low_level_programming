@@ -10,13 +10,13 @@
 
 void puts2(char *str)
 {
-	int aux = 1;
+	int aux = 0;
 
 	while (*str != 0)
 	{
-		if ((aux % 2) != 0)
+		if ((aux % 2) == 0)
 		{
-			putchar(str[aux]);
+			putchar(*str);
 		}
 		str++;
 		aux++;
