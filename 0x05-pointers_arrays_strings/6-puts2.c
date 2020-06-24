@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * rev_string - prints a string, in reverse
- * @s: pointer
+ * puts2 - prints every other character of a string
+ * @str: pointer
  *
  *
  */
