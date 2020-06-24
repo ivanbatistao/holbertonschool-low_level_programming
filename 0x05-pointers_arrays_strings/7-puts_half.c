@@ -33,7 +33,7 @@ void puts_half(char *str)
 		aux1 = half;
 		while (str[aux1] != 0)
 		{
-			_putchar(str[aux1]);
+			_putchar(str[aux1 + 1]);
 			aux1++;
 		}
 	}
