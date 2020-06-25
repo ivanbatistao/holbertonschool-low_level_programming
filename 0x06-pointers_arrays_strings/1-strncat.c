@@ -5,7 +5,7 @@
  * @dest: pointer
  * @src: pointer
  * @n: variable
- * Return: p - dest
+ * Return: out - dest
  *
  */
 
@@ -13,12 +13,12 @@ char *_strncat(char *dest, char *src, int n)
 {
 	char *out = dest;
 
-	while(*dest != '\0')
+	while (*dest != '\0')
 	{
 		dest++;
 	}
 
-	while(n-- && *src)
+	while (n-- && *src)
 	{
 		*dest = *src;
 		dest++;
