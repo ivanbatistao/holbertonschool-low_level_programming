@@ -13,7 +13,7 @@ char *leet(char *s)
 
 	ch  = s;
 
-	while (*s != 0)
+	while (*s)
 	{
 		(*s == 'a' || *s == 'A') ? *s = '4' : 0;
 		(*s == 'e' || *s == 'E') ? *s = '3' : 0;
