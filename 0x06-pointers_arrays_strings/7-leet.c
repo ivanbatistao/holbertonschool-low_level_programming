@@ -3,27 +3,31 @@
 /**
  * leet - function that encodes a string into 1337
  * @s: pointer
- * Return: ch - pointer to s
+ * Return: p - pointer to s
  *
  */
 
 char *leet(char *s)
 {
-	char *ch;
+	int i;
+	int j;
+	char *p = s;
 
-	ch  = s;
+	char letters[] = "a,A,e,E,o,O,t,T,l,L";
+	char num[] = "4,4,3,3,0,0,7,7,1,1";
 
-	while (*s)
+	i = 0;
+        for (i = 0; s[i] != '\0'; i++)
 	{
-		(*s == 'a' || *s == 'A') ? *s = '4' : 0;
-		(*s == 'e' || *s == 'E') ? *s = '3' : 0;
-		(*s == 'o' || *s == 'O') ? *s = '0' : 0;
-		(*s == 't' || *s == 'T') ? *s = '7' : 0;
-		if (*s == 'l' || *s == 'L')
-			(*s) = '1';
-
-		s++;
+		j = 0;
+		while (letters[j] != '\0')
+		{
+			if(s[i] == letters[j])
+			{
+				s[i] = num[j];
+			}
+			j++;
+		}
 	}
-
-	return (ch);
+	return (p);
 }
