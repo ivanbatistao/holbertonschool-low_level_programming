@@ -17,12 +17,12 @@ char *leet(char *s)
 	char num[] = "4,4,3,3,0,0,7,7,1,1";
 
 	i = 0;
-        for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		j = 0;
 		while (letters[j] != '\0')
 		{
-			if(s[i] == letters[j])
+			if (s[i] == letters[j])
 			{
 				s[i] = num[j];
 			}
