@@ -3,7 +3,7 @@
 /**
  * leet - function that encodes a string into 1337
  * @s: pointer
- *
+ * Return: ch - pointer to s
  *
  */
 
@@ -19,8 +19,6 @@ char *leet(char *s)
 		(*s == 'e' || *s == 'E') ? *s = '3' : 0;
 		(*s == 'o' || *s == 'O') ? *s = '0' : 0;
 		(*s == 't' || *s == 'T') ? *s = '7' : 0;
-
-
 		if (*s == 'l' || *s == 'L')
 			(*s) = '1';
 
