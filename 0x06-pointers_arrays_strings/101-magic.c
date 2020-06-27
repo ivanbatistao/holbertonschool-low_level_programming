@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - changes the value of a[2]
+ * @void: void
+ * Return: (0)
+ *
+ */
+
 int main(void)
 {
 	int n;
