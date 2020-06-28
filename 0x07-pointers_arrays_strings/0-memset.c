@@ -4,24 +4,22 @@
  * _memset - function that fills memory with a constant byte
  * @s: pointer of type char
  * @b: variable of type char
- * @n: variable of type char
- * Return: s
+ * @n: variable of type unsigned int
+ * Return: out
  *
  **/
 
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i = 0;
-	char **out;
 
-	out = &s;
 	while (i < n)
 	{
-		*s = b;
+		s[i] = b;
 		i++;
 		s++;
 	}
 
-	return (*out);
+	return (s);
 
 }
