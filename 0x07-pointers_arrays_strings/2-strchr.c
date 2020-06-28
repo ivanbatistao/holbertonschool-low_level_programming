@@ -15,18 +15,13 @@ char *_strchr(char *s, char c)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == c)
-		{
 			return (s);
-		}
 	}
 
-	if (c == NULL)
-	{
+	if (c == '\0')
 		return (0);
-	}
 
 	else
-	{
-		return (NULL);
-	}
+		return ('\0');
+
 }
