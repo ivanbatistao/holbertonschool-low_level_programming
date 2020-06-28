@@ -15,10 +15,19 @@ char *_strchr(char *s, char c)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (*s == c)
-		return (s);
+		{
+			return (s);
+		}
 		s++;
 	}
 
 	if (c == NULL)
-	return (0);
+	{
+		return (0);
+	}
+
+	else
+	{
+		return (NULL);
+	}
 }
